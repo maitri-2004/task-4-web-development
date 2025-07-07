@@ -1,0 +1,56 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="projects-section">
+    <h2>My Projects</h2>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="html">HTML</button>
+      <button class="filter-btn" data-filter="javascript">JavaScript</button>
+    </div>
+
+    <div class="projects-container">
+      <div class="project-card html">
+        <h3>Portfolio Website</h3>
+        <p>A multi-page responsive portfolio using HTML & CSS.</p>
+      </div>
+
+      <div class="project-card javascript">
+        <h3>To-Do List App</h3>
+        <p>Built with JavaScript and localStorage for task saving.</p>
+      </div>
+
+      <div class="project-card javascript">
+        <h3>Product Filter Page</h3>
+        <p>Dynamic filtering/sorting using JavaScript and DOM.</p>
+      </div>
+
+      <div class="project-card html">
+        <h3>Login Form</h3>
+        <p>Responsive HTML/CSS login UI with animation.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
